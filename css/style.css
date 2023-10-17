@@ -13,12 +13,14 @@ body {
     font-size: 1.4rem;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 footer {
     font-size: 1.6rem;
     line-height: 130%;
     background-color: var(--footer-color);
+    text-align: left;
 }
 
 h2 {
@@ -118,6 +120,7 @@ button {
 #copyright {
     font-size: 1.4rem;
     line-height: normal;
+    text-align: center;
 }
 
 #opening-text+p,
@@ -153,4 +156,11 @@ button,
 .pic-and-text#p1,
 .quote#q2 {
     background-color: var(--pics-group-and-quote-background-color);
+}
+
+.logo-1string#l1,
+.logo-2string#l1,
+blockquote,
+.teammate-text {
+    text-align: left;
 }

@@ -3,7 +3,7 @@
     --footer-color: #383638;
     --main-color: #E2E2E2;
     --logo-color: #1D1D1D;
-    --pics-group-and-quote-background-color: #0B0F15;
+    --pic-group-and-quote-background-color: #0B0F15;
 }
 
 body {
@@ -145,22 +145,55 @@ button,
 #action,
 #teammate {
     background-color: var(--main-color);
+    border-radius: 2.4rem;
     color: black;
+    padding: 1rem 3.5rem;
 }
 
-.logo-1string #l2,
-.logo-2string #l2 {
+.logo-1string#l2,
+.logo-2string#l2 {
     color: var(--logo-color);
 }
 
-.pic-and-text#p1,
+.pic-and-text#p1 div,
 .quote#q2 {
-    background-color: var(--pics-group-and-quote-background-color);
+    background-color: var(--pic-group-and-quote-background-color);
 }
 
-.logo-1string#l1,
-.logo-2string#l1,
 blockquote,
 .teammate-text {
     text-align: left;
+}
+
+.photo {
+    border-radius: 1.2rem;
+}
+
+#video,
+#portfolio {
+    padding: 1rem 3.5rem;
+    border-radius: 2.4rem;
+    border: .07rem solid #E2E2E2;
+}
+
+.pic-and-text#p1 div {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.pic-and-text#p1 div,
+.pic-and-text#p2 img {
+    border-radius: 3rem;
+}
+
+#portfolio {
+    border: .1rem solid #E2E2E2;
+}
+
+.quote#q2 {
+    border-radius: 2rem;
+}
+
+#logo2 {
+    background-color: var(--main-color);
+    border-radius: 2rem;
 }
